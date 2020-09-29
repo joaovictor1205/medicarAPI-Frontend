@@ -40,6 +40,10 @@ form{
     font-weight: bold;
 }
 
+.botoes a:active {
+    color: #D9F1F3;
+}
+
 .botoes button {
     background: #49B4BB;
     color: white;
@@ -50,3 +54,5 @@ form{
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+
