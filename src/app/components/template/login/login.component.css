@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+
+    height: 45px;
+    width: 160px;
+
+    margin-bottom: 30px;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 30px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.botoes a {
+    color: #49B4BB;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.botoes button {
+    background: #49B4BB;
+    color: white;
+
+    width: 150px;
+    border-radius: 7px;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+}
