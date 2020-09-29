@@ -14,6 +14,7 @@ import { PageHomeComponent } from './components/page/page-home/page-home.compone
 import { PageCriarContaComponent } from './components/page/page-criar-conta/page-criar-conta.component';
 import { PageCriarConsultaComponent } from './components/page/page-criar-consulta/page-criar-consulta.component';
 import { CriarContaComponent } from './components/template/criar-conta/criar-conta.component';
+import { GerenciadorContaComponent } from './components/services/gerenciador-conta/gerenciador-conta.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CriarContaComponent } from './components/template/criar-conta/criar-con
     PageCriarContaComponent,
     PageCriarConsultaComponent,
     CriarContaComponent,
+    GerenciadorContaComponent,
   ],
   imports: [
     BrowserModule,
